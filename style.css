@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+
+  justify-content: center;
+}
+.col {
+  background-color: #ccc;
+  padding: 12px;
+}
+.col-1 {
+  order: 1;
+}
+
+.col-2 {
+  order: 3;
+}
+
+.col-3 {
+  order: 2;
+}
+
+.col-4 {
+  order: 4;
+}
+
+body {
+  background-color: #ccc;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    background-color: #fff;
+  }
+}
